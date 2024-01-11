@@ -304,7 +304,8 @@ declare namespace App {
 }
 
 declare namespace I18nType {
-  type LangType = 'en' | 'zh-CN' | 'km-KH';
+  // type LangType = 'en' | 'zh-CN' | 'km-KH';
+  type LangType = 'en' | 'zh-CN';
 
   type Schema = {
     system: {
@@ -395,7 +396,11 @@ declare namespace I18nType {
         route: string;
         user: string;
       };
-      about: string;
+			about: string;
+			demo: {
+				_value: string;
+				dominantColor: string;
+			};
     };
     layout: {
       settingDrawer: {

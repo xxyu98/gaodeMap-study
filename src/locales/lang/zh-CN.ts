@@ -15,7 +15,11 @@ const locale: I18nType.Schema = {
     pleaseCheckValue: '请检查输入的值是否合法',
     action: '操作'
   },
-  routes: {
+	routes: {
+		demo: {
+			_value: '小示例',
+			dominantColor: '图片主色调'
+		},
     dashboard: {
       _value: '仪表盘',
       analysis: '分析页',

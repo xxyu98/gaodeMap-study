@@ -15,7 +15,11 @@ const locale: I18nType.Schema = {
     pleaseCheckValue: 'Please check the value is valid',
     action: 'Action'
   },
-  routes: {
+	routes: {
+		demo: {
+			_value: 'Demo',
+			dominantColor: 'Dominant Color'
+		},
     dashboard: {
       _value: 'Dashboard',
       analysis: 'Analysis',

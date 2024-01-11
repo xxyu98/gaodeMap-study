@@ -22,6 +22,8 @@ declare namespace PageRoute {
     | 'constant-page'
     | 'login'
     | 'not-found'
+    | 'demo'
+    | 'demo_dominantColor'
     | 'gaode'
     | 'gaode_map1'
     | 'gaode_map2';
@@ -32,6 +34,6 @@ declare namespace PageRoute {
    */
   type LastDegreeRouteKey = Extract<
     RouteKey,
-    '403' | '404' | '500' | 'constant-page' | 'login' | 'not-found' | 'gaode_map1' | 'gaode_map2'
+    '403' | '404' | '500' | 'constant-page' | 'login' | 'not-found' | 'demo_dominantColor' | 'gaode_map1' | 'gaode_map2'
   >;
 }
