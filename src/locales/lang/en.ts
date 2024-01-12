@@ -18,7 +18,8 @@ const locale: I18nType.Schema = {
 	routes: {
 		demo: {
 			_value: 'Demo',
-			dominantColor: 'Dominant Color'
+			dominantColor: 'Dominant Color',
+			magicGrid: 'magic grid'
 		},
     dashboard: {
       _value: 'Dashboard',

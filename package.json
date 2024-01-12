@@ -70,7 +70,8 @@
     "vue": "3.3.4",
     "vue-i18n": "9.4.1",
     "vue-router": "4.2.4",
-    "xgplayer": "3.0.9"
+    "xgplayer": "3.0.9",
+    "zb-trans": "^1.0.1"
   },
   "devDependencies": {
     "@iconify/json": "2.2.118",

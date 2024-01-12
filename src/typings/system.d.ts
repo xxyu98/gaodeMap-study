@@ -400,6 +400,7 @@ declare namespace I18nType {
 			demo: {
 				_value: string;
 				dominantColor: string;
+				magicGrid: string;
 			};
     };
     layout: {

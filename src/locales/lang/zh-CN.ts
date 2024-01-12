@@ -18,7 +18,8 @@ const locale: I18nType.Schema = {
 	routes: {
 		demo: {
 			_value: '小示例',
-			dominantColor: '图片主色调'
+			dominantColor: '图片主色调',
+			magicGrid: '魔法网格'
 		},
     dashboard: {
       _value: '仪表盘',
